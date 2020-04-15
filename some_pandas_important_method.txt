@@ -1,0 +1,20 @@
+#Sum of values in a DataFrame
+df.sum()
+#Lowest value of a DataFrame
+df.min()
+#Highest value
+df.max()
+#Index of the lowest value
+df.idxmin()
+#Index of the highest value
+df.idxmax()
+#Statistical summary of the DataFrame, with quartiles, median, etc.
+df.describe()
+#Average values
+df.mean()
+#Median values
+df.median()
+#Ordering in ascending order
+df.sort_values()
+#Ordering in descending order
+df.sort_values(ascending = False)
